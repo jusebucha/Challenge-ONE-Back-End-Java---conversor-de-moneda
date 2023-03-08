@@ -15,7 +15,7 @@ El convertidor de moneda debe:
       - Convertir de la moneda de tu país  a Yen Japonés
       - Convertir de la moneda de tu país  a Won sul-coreano
       
-Recordando que también debe ser posible convertir inversamente.\n
+Recordando que también debe ser posible convertir inversamente.  
 Además se solicita añadir al programa otros tipos de conversiones como temperatura por ejemplo.
 
 ## Video explicativo 
