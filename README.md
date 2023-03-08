@@ -18,8 +18,22 @@ El convertidor de moneda debe:
 Recordando que también debe ser posible convertir inversamente.  
 Además se solicita añadir al programa otros tipos de conversiones como temperatura por ejemplo.
 
-## Video explicativo 
-https://youtu.be/mj3qYtEABOs
+## Video explicativo del Desafio
+<iframe width="600" height = "420"
+src="https://youtu.be/mj3qYtEABOs">
+</iframe>
+
+
+## Funcionamiento del desafio 
+<div>
+<p style = 'text-align:center;'>
+<iframe width="600" height = "420"
+src="https://www.linkedin.com/feed/update/urn:li:ugcPost:7039264016816312320/">
+</iframe>
+</div>
+</p>
+[Prueba](https://www.linkedin.com/feed/update/urn:li:ugcPost:7039264016816312320/)
+
 
 
 
