@@ -37,8 +37,11 @@ public class ConversorMoneda {
 		// por si se ingresa un valor no permitido
 		catch (NumberFormatException | NullPointerException exception) {
 			JOptionPane.showMessageDialog(null, "Valor no valido", "Error", JOptionPane.ERROR_MESSAGE);
-			Desarrollo intentarDeNuevo = new Desarrollo();
-			intentarDeNuevo.iniciar();
+			DeseaContinuar intentarDeNuevo = new DeseaContinuar();
+			intentarDeNuevo.mensaje_final(); // .iniciar();
+			
+			//Desarollo intentarDeNuevo = new Desarollo();
+			//intentarDeNuevo.iniciar(); 
 
 		}
 
