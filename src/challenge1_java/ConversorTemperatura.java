@@ -2,8 +2,6 @@ package challenge1_java;
 
 import javax.swing.JOptionPane;
 
-//import proceso_aplicacion.desarrollo;
-//import proceso_aplicacion.mensaje_final;
 
 public class ConversorTemperatura {
 	public void obtener_datos() {
