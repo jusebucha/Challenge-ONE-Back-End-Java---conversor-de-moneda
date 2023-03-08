@@ -11,7 +11,7 @@ public class ConversorTemperatura {
 				"Grado Celsius a Grado Fahrenheit", "Grado Fahrenheit a Grado Celsius",
 				"Grado Fahrenheit a Grado Kelvin" };
 		Object opciones_elegir_temperatura = JOptionPane.showInputDialog(null, "Seleccione un opción de conversión",
-				"Menu", JOptionPane.QUESTION_MESSAGE, null, opciones_temperatura, opciones_temperatura[0]);
+				"Menú", JOptionPane.QUESTION_MESSAGE, null, opciones_temperatura, opciones_temperatura[0]);
 		String opcionTemperatura_elegida = (String) opciones_elegir_temperatura;
 
 		if (opciones_elegir_temperatura == null) {

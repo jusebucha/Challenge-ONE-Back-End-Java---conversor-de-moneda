@@ -19,20 +19,72 @@ Recordando que también debe ser posible convertir inversamente.
 Además se solicita añadir al programa otros tipos de conversiones como temperatura por ejemplo.
 
 ## Video explicativo del Desafio
-<iframe width="600" height = "420"
-src="https://youtu.be/mj3qYtEABOs">
-</iframe>
+[Para ver el video haga clic aquí](https://youtu.be/mj3qYtEABOs")
 
 
 ## Funcionamiento del desafio 
-<div>
-<p style = 'text-align:center;'>
-<iframe width="600" height = "420"
-src="https://www.linkedin.com/feed/update/urn:li:ugcPost:7039264016816312320/">
-</iframe>
-</div>
-</p>
-[Prueba](https://www.linkedin.com/feed/update/urn:li:ugcPost:7039264016816312320/)
+
+https://user-images.githubusercontent.com/113076640/223848567-e82ffe49-4655-4534-a603-5f551ab606ab.mp4
+
+
+## Funcionamiento 
+
+Al iniciar la aplicación el usuario podrá elegir entre el conversor de divisas o el conversor de temperatura.
+
+
+![imagen1](https://user-images.githubusercontent.com/113076640/223850990-e6d2cb69-04f5-4d0b-9774-587c0b17a1e0.png)
+
+
+saldrá un menú donde se muestran las opciones de conversión de divisas y de temperatura.
+
+
+![imagen2](https://user-images.githubusercontent.com/113076640/223851829-7c5507d3-401a-4615-a14c-e9fb6d71499e.png)
+
+
+Una vez elegida la opción deseada, aparece un cuadro de diálogo en el cual se debe que ingresar el monto a convertir.
+
+
+![imagen3](https://user-images.githubusercontent.com/113076640/223852727-5d82fea4-9e71-4a8c-8d8d-83e7f455912f.png)
+
+
+En caso de que se ingrese un valor que  no sea válido o no se ingrese ningún valor, se mostrará un mensaje de error y se pregruntará si quiere iniciar de  nuevo .
+
+
+![imagen4](https://user-images.githubusercontent.com/113076640/223856100-d912170a-7c04-4bb2-8f25-ebe65b420a7f.png)
+
+
+En caso de que no haya ningún error, se despliega un cuadro de diálogo con la conversión solicitada.
+
+
+![imagen5](https://user-images.githubusercontent.com/113076640/223857294-05bc930f-dceb-4b0e-8553-d72b51b2f686.png)
+
+
+Finalizando se muestra un cuadro para elegir si se desea iniciar de nuevo el programa o si desea terminar, en caso de seguir en el programa, se vuelve al comienzo para elegir otra conversión.
+
+
+![6](https://user-images.githubusercontent.com/113076640/223859442-f432ea4d-5827-4136-885b-55a34bc3b2c3.png)
+
+
+En el caso de que se decida terminar el programa, se mostrará un mensaje al usuario donde se indique "Programa Terminado"
+
+
+![7](https://user-images.githubusercontent.com/113076640/223858580-da5a3af6-e7df-4dda-9343-02c9445b560d.png)
+
+## ¿Qué se utilizó?
+
+Se utilizó java.io las operaciones de entrada/salida de Api 
+Se Conectó la aplicación con una API de tipos de cambio en tiempo real, ya que las tasas cambian constantemente permitiendo que la aplicación siga funcionando de manera correcta independientemennte del  cambio en las tasas  monetarias
+
+![image](https://user-images.githubusercontent.com/94869227/175204627-89f42e4b-7d02-4ff2-81db-8553204c0936.png)
+
+Se usaron validaciones para que a la hora de ingresar la información se  pudiera recibir la respuesta correcta
+
+se  usaron Excepciones como NumberFormatException para poder evitar problemas de parte del Api, del programa o del usuario
+
+se usó  la librería  javax.swing.JOptionPane para el manejo de interfaces gráficas, permitiendo mostrar el conocimiento adquirido en el lenguaje Java de una forma más accesible al usuario 
+
+El código  se agrupó en clases y en paquetes (package) para que su comprensión  y mantenimiento fuera más fácil y entendible  
+
 
 
 
